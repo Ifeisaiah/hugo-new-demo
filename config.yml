@@ -1,0 +1,45 @@
+baseURL: ''
+languageCode: 'en-uk'
+title: 'Demo for hugo'
+theme: 'PaperMod'
+
+params: 
+    homeInfoParams:
+      Title: "Welcome Ifeoluwa"
+      Content: "This is your first static site!"
+    socialIcons:
+        - name: instagram
+          url: 'www.instagram.com'
+        - name: facebook
+          url: 'www.facebook.com'
+        - name: twitter
+          url: 'www.twitter.com'
+    cover: 
+      linkFullImages: true
+
+    showBreadCrumbs: true
+    showReadingTime: true
+    showShareButtons: true
+    showPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
+    - identifier: tutorial
+      name: Tutorial
+      url: /tutorial/
+      weight: 40
